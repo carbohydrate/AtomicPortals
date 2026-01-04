@@ -15,9 +15,11 @@ function AP:ADDON_LOADED(addOnName)
     end
 end
 
-function AP:CHALLENGE_MODE_MAPS_UPDATE()
-    self:CreateAndUpdateButtons()
-end
+-- something in retail is calling this, before ChallengesFrame is on screen
+-- does not happen on PTR, but this is probably not needed as it was an attempt at replacing CHALLENGE_MODE_LEADERS_UPDATE
+-- function AP:CHALLENGE_MODE_MAPS_UPDATE()
+--     self:CreateAndUpdateButtons()
+-- end
 
 function AP:CHALLENGE_MODE_LEADERS_UPDATE()
     self:CreateAndUpdateButtons()
@@ -102,7 +104,7 @@ SlashCmdList.AtomicPortals = function(msg)
 end
 
 AP:RegisterEvent("ADDON_LOADED")
-AP:RegisterEvent("CHALLENGE_MODE_MAPS_UPDATE")
+-- AP:RegisterEvent("CHALLENGE_MODE_MAPS_UPDATE")
 AP:RegisterEvent("CHALLENGE_MODE_LEADERS_UPDATE")
 
 AP:SetScript("OnEvent", AP.OnEvent)
