@@ -1,2 +1,2 @@
-# heros-path
-Dungeon portals and other teleport utilities
+# AtomicPortals
+Dungeon portals and other teleporting utilities

@@ -1,0 +1,9 @@
+## Interface: 110207
+## Title: AtomicPortals
+## Notes: Dungeon portals and other teleporting utilities
+## Author: vitamin
+## Version: @project-version@
+## IconTexture: 135744
+
+AtomicPortals.lua
+AtomicPortalsMapper.lua
