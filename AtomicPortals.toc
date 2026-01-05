@@ -4,6 +4,7 @@
 ## Author: vitamin
 ## Version: @project-version@
 ## IconTexture: 135744
+## X-Curse-Project-ID: 1421110
 ## X-Wago-ID: bGoMon60
 
 AtomicPortals.lua
