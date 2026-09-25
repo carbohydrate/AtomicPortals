@@ -28,7 +28,9 @@ local spellTable = {
     [239] = { spellId = 1254551, sName = "SEAT" },
 
     -- Battle for Azeroth
+    [249] = { spellId = 1286831, sName = "KR" },
     [247] = { spellId = getMotherlodeId(), sName = "ML" },
+    [250] = { spellId = 1286828, sName = "TOS" },
 
     -- Shadowlands
     [378] = { spellId = 354465, sName = "HOA" },
@@ -37,6 +39,7 @@ local spellTable = {
 
     -- Dragonflight
     [402] = { spellId = 393273, sName = "AA" },
+    [399] = { spellId = 393256, sName = "RLP" },
 
     -- The War Within
     [503] = { spellId = 445417, sName = "ARAK" },
@@ -51,9 +54,14 @@ local spellTable = {
     [501] = { spellId = 445269, sName = "SV" },
 
     -- Midnight
+    [588] = { spellId = 1286812, sName = "AOF" },
+    [584] = { spellId = 1286801, sName = "BV" },
+    [586] = { spellId = 1286807, sName = "DON" },
     [560] = { spellId = 1254559, sName = "MC" },
+    [587] = { spellId = 1286809, sName = "MR" },
     [558] = { spellId = 1254572, sName = "MT" },
     [559] = { spellId = 1254563, sName = "NPX" },
+    [585] = { spellId = 1286804, sName = "VSA" },
     [557] = { spellId = 1254400, sName = "WS" },
 }
 
